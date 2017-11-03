@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+	
+     <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.sz.ead.framework.mul2launcher.status.Statusbar>
+    
+	<TextView 
+	    android:id="@+id/setting_upgrading_info"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="276dp"
+	    android:text="@string/settings_upgrading_info"
+	    android:textSize="@dimen/size_30"
+	    android:textColor="@color/settings_upgrade_text_color"/>
+	
+    <ProgressBar  
+	    android:id="@+id/setting_upgrading_progress" 
+	    android:layout_width="586dp"  
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="368dp" 
+	    android:layout_marginLeft="317dp"
+	    style="@style/settings_progress_bar_about" 
+	    android:max="100" 
+	    android:progress="0" />
+    <TextView 
+        android:id="@+id/setting_upgrading_progress_num"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="352dp" 
+        android:layout_marginLeft="922dp"
+        android:text="@string/settings_upgrading_progress_num"
+        android:textSize="@dimen/size_40"
+        android:textColor="@color/settings_upgrade_text_color"/>
+	<TextView 
+	    android:id="@+id/setting_upgrade_warning_msg"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="442dp"
+	    android:text="@string/settings_upgrade_warning_msg"
+	    android:textSize="@dimen/size_28"
+	    android:textColor="@color/settings_upgrade_warm_color"/>
+
+	<Button
+	    android:id="@+id/setting_upgrading_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="592dp"
+	    android:layout_centerHorizontal="true"
+	    android:visibility="invisible"
+	    android:focusable="true"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:background="@drawable/settings_network_button_focus"
+	    android:text="@string/settings_upgrading_button"
+	    android:textSize="@dimen/size_32"
+	    android:textColor="@color/settings_upgrade_button_f_color"/>
+	
+</RelativeLayout>

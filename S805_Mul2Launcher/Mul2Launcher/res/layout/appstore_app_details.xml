@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@drawable/app_background"
+    android:orientation="vertical" >
+
+    <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <ImageView
+       android:id="@+id/appstore_detail_app_icon"
+       android:layout_marginTop="104dp"
+       android:layout_marginLeft="128dp"
+       android:layout_width="100dp"
+       android:layout_height="100dp"
+       android:scaleType="fitXY" />
+    
+    <Button
+       android:id="@+id/appstore_btn_download"
+       android:layout_marginTop="233dp"
+       android:layout_marginLeft="64dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:focusable="true"
+	   android:paddingLeft="5dp"
+	   android:paddingRight="5dp"
+       android:background="@drawable/appstore_detail_bt_bg"
+       android:text="@string/appstore_detail_down_btn"
+       android:textColor="@color/appstore_bt_unfocus_color"
+       android:textSize="@dimen/size_32" />
+    
+    <ProgressBar
+       android:id="@+id/appstore_detail_progressbar"
+       style="?android:attr/progressBarStyleHorizontal"
+       android:layout_width="100dp"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="128dp"
+       android:layout_marginTop="222dp"
+       android:background="@drawable/appstore_detail_progress_bg"
+       android:progress="0"
+       android:visibility="invisible"
+       android:progressDrawable="@drawable/appstore_detail_progressbar_style"
+       android:thumb="@null" />
+    
+    <TextView
+       android:id="@+id/appstore_detail_downloading"
+       android:layout_marginLeft="68dp"
+       android:layout_marginTop="250dp"
+       android:layout_width="210dp"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/size_20"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:visibility="invisible"
+       android:gravity="center"
+       android:textColor="@color/appstore_detail_appname_color"
+       android:text="@string/appstore_detail_downing_tips"/>
+    
+    <TextView
+       android:id="@+id/appstore_detail_app_name"
+       android:layout_marginLeft="324dp"
+       android:layout_marginTop="106dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/size_28"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:textColor="@color/appstore_detail_appname_color"/>
+    
+    <TextView
+       android:id="@+id/appstore_detail_app_size"
+       android:layout_toRightOf ="@+id/appstore_detail_app_name"
+       android:layout_marginLeft="100dp"
+       android:layout_marginTop="108dp"
+       android:textColor="@color/appstore_detail_appname_color"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/size_24"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:text="@string/appstore_detail_size"/>
+    
+    <TextView
+       android:id="@+id/appstore_detail_app_version"
+       android:layout_toRightOf ="@+id/appstore_detail_app_size"
+       android:layout_marginLeft="56dp"
+       android:layout_marginTop="108dp"
+       android:textColor="@color/appstore_detail_appname_color"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/size_24"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:text="@string/appstore_detail_version"/>
+    
+    <TextView
+       android:id="@+id/appstore_detail_app_developer"
+       android:layout_marginLeft="324dp"
+       android:layout_marginTop="160dp"
+       android:textColor="@color/appstore_detail_intro_color"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/size_20"
+       android:ellipsize="end"
+       android:singleLine="true"
+       android:text="@string/appstore_detail_developer"/>
+    
+    <TextView
+       android:id="@+id/appstore_detail_app_intro"
+       android:layout_marginLeft="324dp"
+       android:layout_marginTop="194dp"
+       android:textColor="@color/appstore_detail_intro_color"
+       android:layout_width="880dp"
+       android:layout_height="wrap_content"
+       android:textSize="@dimen/size_20"
+       android:ellipsize="end"
+       android:maxLines="3"
+       android:lineSpacingExtra="8dp" 
+       android:text="@string/appstore_detail_intro"/>
+    
+    <ImageView
+       android:id="@+id/appstore_detail_app_line"
+       android:layout_marginTop="305dp"
+       android:layout_marginLeft="55dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/appstore_detail_app_line" />
+   
+    <ImageView 
+        android:id="@+id/appstore_detail_select_left"
+        android:layout_width="464dp"
+        android:layout_height="261dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="80dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/appstore_detail_big_default"/>
+    
+    <ImageView 
+        android:id="@+id/appstore_detail_select_back"
+        android:layout_width="464dp"
+        android:layout_height="261dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginLeft="408dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/appstore_detail_big_default"/>
+    <ImageView 
+        android:id="@+id/appstore_detail_select_right"
+        android:layout_width="464dp"
+        android:layout_height="261dp"
+        android:layout_marginTop="372dp"
+        android:layout_marginLeft="736dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/appstore_detail_big_default"/>
+    <ImageView 
+        android:id="@+id/appstore_detail_select_mid"
+        android:layout_width="640dp"
+        android:layout_height="360dp"
+        android:layout_marginTop="325dp"
+        android:layout_marginLeft="311dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/appstore_detail_big_default"/>
+    
+    <ImageView  
+	    android:id="@+id/appstore_detail_screenshot_focus"
+	    android:layout_height="wrap_content"
+	    android:layout_width="wrap_content"
+	    android:layout_marginTop="318dp"
+	    android:layout_marginLeft="304dp"
+	    android:focusable="true"
+	    android:background="@drawable/appstore_detail_screenshot_focus"
+	    android:visibility="invisible"/>
+    
+    <ImageView
+       android:id="@+id/appstore_detail_move_left"
+       android:layout_marginTop="456dp"
+       android:layout_marginLeft="170dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/appstore_detail_move_left" />
+    
+    <ImageView
+       android:id="@+id/appstore_detail_move_right"
+       android:layout_marginTop="456dp"
+       android:layout_marginLeft="1066dp"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:src="@drawable/appstore_detail_move_right" />
+</RelativeLayout>

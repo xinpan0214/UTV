@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1280dp" 
+    android:layout_height="wrap_content">
+    
+    <ImageView 
+        android:id="@+id/indicator0"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainapp_indicator_unfocus"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"/> 
+        
+    <ImageView 
+        android:id="@+id/indicator1"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainapp_indicator_unfocus"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"/> 
+        
+    <ImageView 
+        android:id="@+id/indicator2"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainapp_indicator_unfocus"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"/> 
+        
+    <ImageView 
+        android:id="@+id/indicator3"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainapp_indicator_unfocus"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"/> 
+        
+    <ImageView
+        android:id="@+id/indicator4"
+        android:layout_width="14dp"
+        android:layout_height="14dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainapp_indicator_unfocus"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"/> 
+    
+    <TextView 
+        android:id="@+id/number"
+ 		android:layout_width="fill_parent"
+ 		android:layout_height="wrap_content"
+ 		android:gravity="center_horizontal"
+ 		android:textSize="@dimen/size_20"
+ 		android:textColor="@color/mainapp_indicator_color"
+ 		android:singleLine="true"
+ 		android:ellipsize="end"
+ 		android:visibility="gone"
+ 		android:text=""/>
+
+</RelativeLayout>

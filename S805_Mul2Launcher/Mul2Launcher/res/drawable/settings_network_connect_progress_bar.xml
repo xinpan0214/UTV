@@ -1,0 +1,44 @@
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android"
+    android:oneshot="false" >
+
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting0"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting1"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting2"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting3"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting4"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting5"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting6"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting7"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting8"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting9"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting10"
+        android:duration="80"/>
+    <item
+        android:drawable="@drawable/settings_network_scan_waitting11"
+        android:duration="80"/>
+
+</animation-list> 
+
+
+

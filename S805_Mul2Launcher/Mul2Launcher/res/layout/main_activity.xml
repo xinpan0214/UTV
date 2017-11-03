@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:background="@drawable/main_bg">
+	
+    <com.sz.ead.framework.mul2launcher.status.LauncherStatusbar
+        android:id="@+id/lsb_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    
+    <com.sz.ead.framework.mul2launcher.nav.NavLayout
+        android:id="@+id/nav_title"
+        android:layout_width="1280dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="86dp"
+        android:focusable="true"/>
+    
+	<android.support.v4.view.ViewPager
+        android:id="@+id/main_rllt"
+        android:layout_width="1280dp"
+        android:layout_height="720dp"
+        android:clipChildren="false"
+    	android:clipToPadding="false"/>
+
+</RelativeLayout>

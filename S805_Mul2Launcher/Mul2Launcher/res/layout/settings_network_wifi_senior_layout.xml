@@ -1,0 +1,72 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	    android:id="@+id/id_auto_fetch_ip_view"
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent">
+  	
+    <TextView 
+           android:id="@+id/id_setting_network_wifi_auto"
+           android:layout_width="250dp"
+           android:layout_height="wrap_content"
+           android:layout_marginLeft="420dp"
+           android:layout_marginTop="192dp"
+           android:focusable="true"
+           android:gravity="center"
+           android:textSize="@dimen/size_30"
+           android:background="@drawable/settings_network_tv_bg"
+           android:text="@string/settings_network_auto"/>
+	
+	<TextView 
+            android:id="@+id/id_setting_network_wifi_manual"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="192dp"
+	        android:layout_toRightOf="@id/id_setting_network_wifi_auto"
+            android:focusable="true"
+            android:gravity="center"
+            android:textSize="@dimen/size_30"
+            android:background="@drawable/settings_network_tv_bg"
+            android:text="@string/settings_network_manual"/>
+    	
+	   <ImageView
+	        android:id="@+id/id_setting_network_wifi_senior_bg" 
+	        android:layout_marginTop="115dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_width="820dp"     
+	        android:layout_height="70dp"
+	        android:src="@drawable/settings_network_wifi_refresh_unfocus"
+	        >     
+	    </ImageView>
+	    
+	    <ImageView
+	        android:id="@+id/id_setting_wifi_senior_lockImage" 
+	        android:layout_marginLeft="980dp"
+	        android:layout_marginTop="130dp"
+	        android:layout_width="40dp"     
+	        android:layout_height="40dp"
+	        android:src="@drawable/settings_network_wifi_lock_f"
+	        >
+	    </ImageView>
+	    
+		<TextView
+		    android:id="@+id/id_setting_network_wifi_senior_name"  
+			android:layout_marginLeft="270dp"
+			android:layout_marginTop="122dp"
+			android:layout_height="57dp"     
+			android:layout_width="450dp"     
+			android:gravity="center_vertical|left"
+			android:textSize="@dimen/size_30"
+			android:textColor="@color/settings_menu_title_color">    
+	    </TextView> 
+	    
+		<ImageView
+	        android:id="@+id/id_setting_network_wifi_senior_signal" 
+	        android:layout_marginLeft="930dp"
+	        android:layout_marginTop="130dp"
+	        android:layout_width="40dp"     
+	        android:layout_height="40dp"
+	  	    android:src="@drawable/settings_network_wifi_wifi2_uf">
+	    </ImageView>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	    android:id="@+id/id_ipaddr_textview"
+  	    android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent">     	
+  	    	
+  	     
+  	     <com.sz.ead.framework.mul2launcher.settings.network.IpAddrEditText
+	        android:id="@+id/id_setting_network_dialog_ipaddress"
+	        style="@style/settings_network_ipaddr_edittext_unfocus_style"
+	   		android:layout_marginLeft="0dp"
+        	android:layout_marginTop="0dp"
+  	    	android:layout_width="391dp"
+  	    	android:layout_height="66dp"
+  	    	android:focusable ="true"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_black_color"
+	   		android:textSize="@dimen/size_30"
+	   		/>
+  	      
+  	     
+	<EditText   
+        android:id="@+id/id_setting_network_dialog_ipaddress1"  
+        style="@style/settings_network_ipaddr_ipaddr_bg_style"
+        android:layout_marginLeft="30dp"
+       	android:layout_marginTop="12dp"
+    	android:layout_width="67dp"
+    	android:layout_height="42dp"
+   		android:gravity="center"
+        android:singleLine="true"  
+        android:inputType="number"  
+        android:textColor="@drawable/settings_network_ip_fontcolor"
+        android:maxLength="3"
+        android:textSize="@dimen/size_30"
+        
+        android:text="@string/settings_network_19"/>
+    <TextView  
+        android:id="@+id/id_setting_network_dialog_point1"  
+        android:layout_marginLeft="97dp"
+       	android:layout_marginTop="0dp"
+    	android:layout_width="20dp"
+    	android:layout_height="66dp"
+   		android:gravity="center"
+   		android:textColor="@color/settings_black_color"
+   		android:textSize="@dimen/size_30"
+   		android:text="@string/settings_network_point"/>
+        
+         
+    <EditText   
+        android:id="@+id/id_setting_network_dialog_ipaddress2"  
+        style="@style/settings_network_ipaddr_ipaddr_bg_style"
+        android:layout_marginLeft="117dp"
+       	android:layout_marginTop="12dp"
+    	android:layout_width="67dp"
+    	android:layout_height="42dp"
+   		android:gravity="center"
+        android:singleLine="true"  
+        android:inputType="number"  
+        android:textColor="@drawable/settings_network_ip_fontcolor"
+        android:maxLength="3"  
+        android:textSize="@dimen/size_30"
+        android:text="@string/settings_network_192"/> 
+    <TextView  
+        android:id="@+id/id_setting_network_dialog_point2"  
+        android:layout_marginLeft="184dp"
+       	android:layout_marginTop="0dp"
+    	android:layout_width="20dp"
+    	android:layout_height="66dp"
+   		android:gravity="center"
+   		android:textColor="@color/settings_black_color"
+   		android:textSize="@dimen/size_30"
+   		android:text="@string/settings_network_point"/>
+         
+         
+    <EditText   
+        android:id="@+id/id_setting_network_dialog_ipaddress3" 
+        style="@style/settings_network_ipaddr_ipaddr_bg_style" 
+        android:layout_marginLeft="204dp"
+       	android:layout_marginTop="12dp"
+    	android:layout_width="67dp"
+    	android:layout_height="42dp"
+   		android:gravity="center"
+        android:singleLine="true"  
+        android:inputType="number"  
+        android:textColor="@drawable/settings_network_ip_fontcolor"
+        android:maxLength="3"  
+        android:textSize="@dimen/size_30"
+        android:text="@string/settings_network_192"/>    
+    <TextView  
+        android:id="@+id/id_setting_network_dialog_point3"  
+        android:layout_marginLeft="271dp"
+       	android:layout_marginTop="0dp"
+    	android:layout_width="20dp"
+    	android:layout_height="66dp"
+   		android:gravity="center"
+   		android:textColor="@color/settings_black_color"
+   		android:textSize="@dimen/size_30"
+   		android:text="@string/settings_network_point"/>
+        
+         
+    <EditText   
+        android:id="@+id/id_setting_network_dialog_ipaddress4"  
+        style="@style/settings_network_ipaddr_ipaddr_bg_style"
+       	android:layout_marginLeft="291dp"
+       	android:layout_marginTop="12dp"
+    	android:layout_width="67dp"
+    	android:layout_height="42dp"
+   		android:gravity="center"
+        android:singleLine="true"  
+        android:inputType="number" 
+        android:textColor="@drawable/settings_network_ip_fontcolor"
+        android:maxLength="3"  
+        android:textSize="@dimen/size_30"
+        android:text="@string/settings_network_192"/>  
+  	     
+  	 </RelativeLayout>

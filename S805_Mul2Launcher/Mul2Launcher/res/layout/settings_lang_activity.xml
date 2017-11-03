@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.sz.ead.framework.mul2launcher.status.Statusbar>
+    
+    <com.sz.ead.framework.mul2launcher.settings.lang.CircleTextView
+        android:id="@+id/setting_lang_circleview"
+        android:layout_width="1280dp"
+        android:layout_height="720dp"
+     ></com.sz.ead.framework.mul2launcher.settings.lang.CircleTextView>
+          
+     <RelativeLayout
+        android:id="@+id/setting_lang_select"
+	    android:layout_width="320dp"
+	    android:layout_height="184dp"
+		android:layout_marginLeft="480dp"
+		android:layout_marginTop="250dp"
+	    android:background="@drawable/settings_lang_select_f">
+		<ImageView
+		    android:id="@+id/setting_lang_select_icon"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentRight="true"
+		    android:layout_alignParentBottom="true"
+		    android:layout_marginRight="20dp"
+		    android:layout_marginBottom="20dp"
+		    android:background="@drawable/settings_lang_select_icon_f"/>
+	 </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg" >
+    
+    <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    </com.sz.ead.framework.mul2launcher.status.Statusbar>
+    
+    <RadioGroup
+        android:id="@+id/nav_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+        
+		<RadioButton
+            android:id="@+id/id_setting_network_wired"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="0dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:button="@null"
+            android:gravity="center"
+            android:saveEnabled="false"
+        	android:focusableInTouchMode="true"
+        	android:textSize="@dimen/size_32"
+        	android:text="@string/settings_network_wired"
+        	android:textColor="@drawable/settings_network_title_color_selector"
+        	android:background="@drawable/nav_bg_selector" />
+		
+		<RadioButton
+            android:id="@+id/id_setting_network_wifi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:button="@null"
+            android:gravity="center"
+            android:saveEnabled="false"
+        	android:focusableInTouchMode="true"
+        	android:textSize="@dimen/size_28"
+        	android:text="@string/settings_network_wifi"
+        	android:textColor="@drawable/settings_network_title_color_selector"
+        	android:background="@drawable/nav_bg_selector"/>
+		
+		<RadioButton
+            android:id="@+id/id_setting_network_detection"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:button="@null"
+            android:gravity="center"
+            android:saveEnabled="false"
+        	android:focusableInTouchMode="true"
+        	android:textSize="@dimen/size_28"
+        	android:text="@string/settings_network_detection"
+        	android:textColor="@drawable/settings_network_title_color_selector"
+        	android:background="@drawable/nav_bg_selector"/>
+    </RadioGroup>
+</RelativeLayout>

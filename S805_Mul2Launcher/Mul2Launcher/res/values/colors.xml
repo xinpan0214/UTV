@@ -1,0 +1,72 @@
+<resources>
+    
+    <color name="nav_color_focus">#F0F0F0</color>
+    <color name="nav_color_selected">#F0F0F0</color>
+    <color name="nav_color_default">#b4b4b4</color>
+    
+    <color name="mainapp_indicator_color">#b4b4b4</color>
+    <color name="mainapp_appitem_color">#f0f0f0</color>
+    
+    <color name="mainapp_menudialog_default_color">#f0f0f0</color>
+    <color name="mainapp_menudialog_foucs_color">#f0f0f0</color>
+    <color name="mainapp_menudialog_disable_color">#646464</color>
+    
+    <color name="mainapp_promptdialog_unfocus_color">#f0f0f0</color>
+    <color name="mainapp_promptdialog_focus_color">#12446b</color>
+    
+    <!-- 未选中白色 -->
+    <color name="settings_unfocus_white_color">#B2A9BB</color>
+    <!-- 雅黑 -->
+    <color name="settings_black_color">#464646</color>
+    <!-- 透明颜色 -->
+    <color name="settings_transparency_color">#00FFFFFF</color>
+    <!-- 网络检测异常-->
+    <color name="settings_detection_abnormal">#FF3600</color>
+    
+    <color name="settings_header_title_color">#7ff0f0f0</color>
+    <color name="settings_menu_title_color">#b4b4b4</color>
+    <color name="settings_menu_title_info_color">#96a2b6</color>
+    <color name="settings_network_white_color">#70737f</color>
+    <color name="settings_button_text_focus">#ffc600</color>
+    <color name="settings_button_text_unfocus">#f0f0f0</color>
+    <color name="settings_notice_red">#e70c30</color>
+    <color name="settings_black_Alpha_color">#e6121417</color>
+    
+    <color name="settings_network_wifi_refresh_f_color">#12446b</color>
+    <color name="settings_network_wifi_refresh_uf_color">#f0f0f0</color>
+    <color name="settings_network_wifi_prompt_info">#f0f0f0</color>
+    <color name="settings_network_iptext">#f0f0f0</color>
+    <color name="settings_network_detection_result">#f7aa1e</color>
+    <color name="settings_network_detection_not_pass">#f0f0f0</color>
+    <color name="settings_network_title_top_focus">#f0f0f0</color>
+    <color name="settings_network_title_top_unfocus">#b4b4b4</color>
+    <color name="settings_network_button_f_color">#12446b</color>
+    <color name="settings_network_button_uf_color">#f0f0f0</color>
+    <color name="settings_upgrade_warm_color">#f7aa1e</color>
+    <color name="settings_upgrade_text_color">#f0f0f0</color>
+    <color name="settings_upgrade_button_f_color">#f0f0f0</color>
+    <color name="settings_timezone_f_color">#f0f0f0</color>
+    <color name="settings_timezone_uf_color">#b4b4b4</color>
+    <color name="settings_lang_1_color">#6e8da4</color>
+    <color name="settings_lang_2_color">#9eabb5</color>
+    <color name="settings_lang_3_color">#f0f0f0</color>
+    <color name="settings_zoom_text_color">#f0f0f0</color>
+    <color name="settings_about_dialog_text_f_color">#12446b</color>
+    <color name="settings_about_dialog_text_uf_color">#f0f0f0</color>
+    <color name="settings_about_dialog_bg_color">#e7000000</color>
+    <color name="settings_about_white_color">#e7e8ea</color>
+    <color name="settings_about_unfocus_white_color">#70737f</color>
+    <color name="settings_dialog_prompt_color">#b4b4b4</color>
+    <color name="settings_menu_uf_color">#b4b4b4</color>
+    <color name="settings_menu_f_color">#f0f0f0</color>
+    
+    <color name="appstore_bt_focus_color">#12446b</color>
+    <color name="appstore_bt_unfocus_color">#f0f0f0</color>
+    <color name="appstore_detail_appname_color">#f0f0f0</color>
+    <color name="appstore_detail_intro_color">#b4b4b4</color>
+    <color name="transparent">#00000000</color>
+    <color name="white_color">#F0F0F0</color>
+    <color name="appstore_detail_diglog_bg">#bb000000</color>
+    <color name="translucent_background_dialog">#bb000000</color>
+    <drawable name="title_top_focus">#e7e8ea</drawable>
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+	
+     <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.sz.ead.framework.mul2launcher.status.Statusbar>
+    
+	<TextView 
+	    android:id="@+id/setting_about_reset_info"
+	    android:layout_width="916dp"
+	    android:layout_height="wrap_content"
+	    android:layout_marginLeft="182dp"
+	    android:layout_marginTop="292dp"
+	    android:text="@string/settings_about_reset_info"
+	    android:textSize="@dimen/size_30"
+	    android:lineSpacingExtra="8dp"
+	    android:textColor="@color/settings_upgrade_text_color"/>
+	<ProgressBar  
+	    android:id="@+id/setting_about_progress" 
+	    android:layout_width="586dp"  
+	    android:layout_height="wrap_content" 
+	    android:layout_marginTop="368dp"
+	    android:layout_marginLeft="307dp"
+	    android:visibility="invisible"
+	    style="@style/settings_progress_bar_about" 
+	    android:max="100" 
+	    android:progress="0" />
+	<TextView 
+	    android:id="@+id/setting_about_progress_num"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="352dp"
+	    android:layout_marginLeft="912dp"
+	    android:visibility="invisible"
+	    android:text="0"
+	    android:textSize="@dimen/size_40"
+	    android:textColor="@color/settings_upgrade_text_color"/>
+	<Button
+	    android:id="@+id/setting_about_reset_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="592dp"
+	    android:layout_marginLeft="482dp"
+	    android:paddingLeft="5dp"
+	    android:paddingRight="5dp"
+	    android:focusable="true"
+	    android:background="@drawable/settings_network_bt_bg"
+	    android:text="@string/settings_about_reset_button"
+	    android:textSize="@dimen/size_32"
+	    android:textColor="@color/settings_upgrade_button_f_color"/>
+    
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_fragment_second"
+    android:layout_width="1280dp"
+    android:layout_height="400dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginTop="0dp">
+	
+    <com.sz.ead.framework.mul2launcher.settings.FragmentSettingsSection
+    	    android:id="@+id/settings_restore"
+    	    android:layout_width="230dp"
+    	    android:layout_height="338dp"
+    	    android:layout_marginTop="30dp"
+    	    android:layout_marginLeft="46dp"
+    	    android:focusable="true"
+    	    android:background="@drawable/settings_section_uf_network">
+	</com.sz.ead.framework.mul2launcher.settings.FragmentSettingsSection>
+	
+	<com.sz.ead.framework.mul2launcher.settings.FragmentSettingsSection
+    	    android:id="@+id/settings_about"
+    	    android:layout_width="230dp"
+    	    android:layout_height="338dp"
+    	    android:layout_marginTop="30dp"
+    	    android:layout_marginLeft="284dp"
+    	    android:focusable="true"
+    	    android:background="@drawable/settings_section_uf_lang">
+	</com.sz.ead.framework.mul2launcher.settings.FragmentSettingsSection>
+</RelativeLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+	android:layout_width="1280dp"
+    android:layout_height="720dp"
+    android:orientation="vertical" >
+	
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+    	android:layout_marginTop="170dp">
+	
+        <!-- <ImageView 
+    		android:id="@+id/dialog_icon"
+    		android:layout_height="114dp" 
+    		android:layout_width="114dp" 
+    		android:layout_marginLeft="150dp"
+        	android:layout_marginTop="100dp"
+    		android:src="@drawable/dialog_icon" /> -->
+
+		<TextView 
+    		android:id="@+id/dialog_prompt_info"
+			android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:ellipsize="end"
+			android:textSize="34sp"
+			android:textColor="@color/white_color"/>
+	</LinearLayout>
+	
+    <LinearLayout 
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true" 
+        android:layout_marginLeft="152dp"
+        android:layout_marginTop="400dp">
+	
+        <Button 
+    		android:id="@+id/dialog_prompt_sure"
+    		android:layout_height="wrap_content" 
+    		android:layout_width="wrap_content" 
+    		android:paddingLeft="5dp"
+	    	android:paddingRight="5dp"
+    		android:textSize="34sp"
+    		android:background="@drawable/appstore_detail_bt_bg"
+            android:textColor="@drawable/appstore_detail_bt_color"
+	        android:text="@string/dialog_prompt_sure_hint" />
+
+		<Button 
+    		android:id="@+id/dialog_prompt_cancel"
+			android:layout_height="wrap_content" 
+			android:layout_width="wrap_content" 
+			android:paddingLeft="5dp"
+	    	android:paddingRight="5dp"
+			android:layout_marginLeft="30dp"
+			android:textSize="34sp"
+			android:background="@drawable/appstore_detail_bt_bg"
+            android:textColor="@drawable/appstore_detail_bt_color"
+	        android:text="@string/dialog_prompt_cancel_hint" />
+		
+	</LinearLayout>
+
+</RelativeLayout>

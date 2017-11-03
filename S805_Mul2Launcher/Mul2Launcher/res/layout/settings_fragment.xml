@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/settings_fragment_rllt"
+    xmlns:screen_control_view="http://schemas.android.com/apk/res/com.sz.ead.framework.mul2launcher"
+    android:layout_width="1280dp"
+    android:layout_height="720dp">
+    
+    <android.support.v4.view.ViewPager
+        android:id="@+id/settings_view_pager"
+        android:layout_width="1280dp"
+        android:layout_height="400dp"
+        android:layout_marginTop="200dp"/>
+	
+    <com.sz.ead.framework.mul2launcher.settings.upgrade.ScreenControlView
+       android:id="@+id/idScreenControl"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="607dp"
+       screen_control_view:circle_space="12dp"
+       screen_control_view:circle_diameter="15dp"
+       screen_control_view:focus_drawable="@drawable/settings_big_point"
+       screen_control_view:other_drawable="@drawable/settings_small_point" />
+
+</RelativeLayout>

@@ -1,0 +1,42 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_settings_section"
+    android:layout_marginLeft="0dp"
+	android:layout_marginTop="0dp"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">     
+	<ImageView 
+	    android:id="@+id/id_settings_section_img"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="54dp"
+	    android:layout_marginLeft="68dp"
+	    android:background="@drawable/settings_network_uf_icon"/>
+	
+	<TextView  
+        android:id="@+id/id_settings_section_text_1"  
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginLeft="2dp"
+    	android:layout_marginRight="2dp"
+    	android:layout_marginTop="44dp"
+    	android:layout_below="@id/id_settings_section_img"
+   		android:textColor="@color/settings_menu_f_color"
+   		android:textSize="@dimen/size_34"
+   		android:text="@string/settings_menu_network_title"/>
+	
+  	<TextView  
+        android:id="@+id/id_settings_section_text_2"  
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	android:layout_centerHorizontal="true"
+    	android:layout_marginTop="13dp"
+    	android:layout_below="@id/id_settings_section_text_1"
+   		android:textColor="@color/settings_menu_f_color"
+   		android:textSize="@dimen/size_20"
+   		android:text="@string/settings_menu_network_title_info"/>    
+</RelativeLayout>

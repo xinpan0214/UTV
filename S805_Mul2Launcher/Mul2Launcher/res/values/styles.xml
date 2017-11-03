@@ -1,0 +1,110 @@
+<resources>
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+    
+        <!-- setting network_ipaddr_border_unfocus -->
+    <style name="settings_network_ipaddr_edittext_unfocus_style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/settings_network_ipaddr_ufocus</item>
+    </style>
+     <!-- setting network_ipaddr_border_unfocus -->
+    <style name="settings_network_ipaddr_edittext_focus_style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/settings_network_ipaddr_focus</item>
+    </style>
+    
+    <!-- setting network_ipaddr_bg -->
+    <style name="settings_network_ipaddr_ipaddr_bg_style" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/settings_network_ipaddr_bg</item>
+    </style>
+    
+     <!-- setting network detection normal result -->
+    <style name="settings_network_ipaddr_detection_result_normal_style" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@drawable/settings_network_detection_result_normal</item>
+    </style>
+    
+    <!-- setting network detection abnormal result -->
+    <style name="settings_network_ipaddr_detection_result_abnormal_style" parent="@android:style/Widget.TextView">
+        <item name="android:textColor">@drawable/settings_network_detection_result_abnormal</item>
+    </style>
+    
+	<!--dialog transparency bg  -->
+    <style name="settings_network_dialog_transparency_bg" parent="@android:Theme.Dialog" >  
+        <item name="android:windowBackground">@color/settings_transparency_color</item>
+        <item name="android:backgroundDimEnabled">false</item> 
+    </style>
+    
+     <!-- setting_network_wifipasswork_editfocus -->
+    <style name="settings_wifipasswork_edit" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/settings_network_wifipassword_bg</item>
+    </style>
+    
+    <style name="settings_wifi_pwd_edit" parent="@android:style/Widget.EditText">
+        <item name="android:background">@drawable/settings_network_wifi_pwd_bg</item>
+    </style>
+     <!-- ProgressBar -->
+    <style name="settings_progress_bar_about" parent="@android:style/Widget.ProgressBar.Horizontal">
+	    <item name="android:maxHeight">22dip</item>
+	    <item name="android:minHeight">22dip</item>
+	    <item name="android:indeterminateOnly">false</item>
+	    <item name="android:indeterminateDrawable">@android:drawable/progress_indeterminate_horizontal</item>
+	    <item name="android:progressDrawable">@drawable/settings_progress_drawable_about</item>
+	</style>
+	
+	<!-- about dialog -->
+    <style name="settings_about_dialog" parent="@android:Theme.Dialog">
+        <item name="android:windowBackground">@color/settings_transparency_color</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+    </style>
+
+	<style name="mainapp_menu_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimAmount">0.85</item>              <!-- 背景变暗程度 0.0-1.0 值越大,背景越暗  -->
+    </style>
+    
+    <style name="dialog_prompt" parent="@android:Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item> 
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowBackground">@color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item> 
+    </style>
+    
+    <style name="DownloadFailDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/translucent_background_dialog</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    
+    
+</resources>

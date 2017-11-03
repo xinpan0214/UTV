@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SettingsScreenControlView">
+        <!-- 圆点大小 -->
+        <attr  name="circle_diameter" format="dimension" />
+        <!-- 圆点间距 -->
+        <attr  name="circle_space" format="dimension" />
+        <!-- 当前屏幕圆点图片 -->
+        <attr name="focus_drawable" format="reference" />
+        <!-- 其他屏幕圆点图片 -->
+        <attr name="other_drawable" format="reference" />
+    </declare-styleable>
+</resources>

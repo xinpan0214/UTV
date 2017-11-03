@@ -1,0 +1,95 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	    android:id="@+id/id_auto_fetch_ip_view"
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent">     	  	    
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_ipaddress"
+	   		android:layout_marginRight="876dp"
+        	android:layout_marginTop="275dp"
+  	    	android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+  	    	android:layout_alignParentRight="true"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_28"
+	   		android:text="@string/settings_network_ipaddress"/>
+  	     
+  	     <com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto
+	       android:id="@+id/id_ipaddr_auto_ipaddr"
+	       android:layout_marginLeft="424dp"
+        	android:layout_marginTop="262dp"
+  	    	android:layout_width="550dp"
+  	    	android:layout_height="72dp">
+	   	 </com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto>
+  	     
+  	     <TextView
+	        android:id="@+id/id_setting_network_subnet_auto_mask"
+	   		android:layout_marginRight="876dp"
+        	android:layout_marginTop="348dp"
+  	    	android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+	   		android:layout_alignParentRight="true"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_28"
+	   		android:text="@string/settings_network_subnet_mask"/>
+  	     
+  	     <com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto
+	       android:id="@+id/id_ipaddr_auto_mask"
+	       android:layout_marginLeft="424dp"
+        	android:layout_marginTop="335dp"
+  	    	android:layout_width="550dp"
+  	    	android:layout_height="72dp">
+	   	</com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto>
+  	     
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_default_gateway"
+	   		android:layout_marginRight="876dp"
+        	android:layout_marginTop="420dp"
+  	    	android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+	   		android:layout_alignParentRight="true"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_28"
+	   		android:text="@string/settings_network_gateway"/>
+  	     
+  	     <com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto
+	       android:id="@+id/id_ipaddr_auto_gateway"
+	       android:layout_marginLeft="424dp"
+        	android:layout_marginTop="407dp"
+  	    	android:layout_width="550dp"
+  	    	android:layout_height="72dp">
+	   	</com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto>
+  	     
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_dns"
+	   		android:layout_marginRight="876dp"
+        	android:layout_marginTop="493dp"
+  	    	android:layout_width="wrap_content"
+  	    	android:layout_height="wrap_content"
+	   		android:layout_alignParentRight="true"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_28"
+	   		android:text="@string/settings_network_dnsaddr"/>
+  	     
+  	     <com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto
+	       android:id="@+id/id_ipaddr_auto_dns"
+	       android:layout_marginLeft="424dp"
+        	android:layout_marginTop="480dp"
+  	    	android:layout_width="550dp"
+  	    	android:layout_height="72dp">
+	   	</com.sz.ead.framework.mul2launcher.settings.network.IpAddrAuto>
+  	     
+  	     <Button 
+	    android:id="@+id/id_setting_network_auto_fetch"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_centerHorizontal="true"
+	            android:layout_marginTop="592dp"
+	            android:gravity="center"
+	            android:textColor="@drawable/settings_network_bt_text"
+	            android:textSize="@dimen/size_30"
+	            android:background="@drawable/settings_network_bt_bg"
+	            android:text="@string/settings_network_fetch"/>
+  	     
+  	 </RelativeLayout>

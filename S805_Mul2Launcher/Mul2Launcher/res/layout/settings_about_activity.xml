@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.sz.ead.framework.mul2launcher.status.Statusbar>
+    
+    <RadioGroup
+        android:id="@+id/nav_about_radiogroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="82dp"
+        android:layout_marginTop="90dp"
+        android:orientation="horizontal">
+        
+		<RadioButton
+            android:id="@+id/id_setting_about_sysinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="0dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:button="@null"
+            android:gravity="center"
+        	android:textSize="@dimen/size_32"
+        	android:text="@string/settings_about_sysinfo"
+        	android:textColor="@drawable/settings_network_title_color_selector"
+        	android:background="@drawable/nav_bg_selector" />
+		
+		<RadioButton
+            android:id="@+id/id_setting_about_legal"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_marginLeft="50dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:button="@null"
+            android:gravity="center"
+        	android:textSize="@dimen/size_28"
+        	android:text="@string/settings_about_legal"
+        	android:textColor="@drawable/settings_network_title_color_selector"
+        	android:background="@drawable/nav_bg_selector"/>
+    </RadioGroup>
+    
+    <RelativeLayout
+        android:id="@+id/settings_sysinfo_rllt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="440dp">
+        
+        <TextView
+             android:id="@+id/settings_device_name"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+             android:layout_marginTop="0dp"
+             android:text="@string/settings_about_sysinfo"
+             android:textColor="@color/settings_button_text_unfocus"
+             android:textSize="@dimen/size_26"/>
+        
+        <TextView
+             android:id="@+id/settings_android_version"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+             android:layout_marginTop="77dp"
+             android:text="@string/settings_about_sysinfo"
+             android:textColor="@color/settings_button_text_unfocus"
+             android:textSize="@dimen/size_26"/>
+        
+        <TextView
+             android:id="@+id/settings_system_version"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+             android:layout_marginTop="154dp"
+             android:text="@string/settings_about_sysinfo"
+             android:textColor="@color/settings_button_text_unfocus"
+             android:textSize="@dimen/size_26"/>
+        
+        <TextView
+             android:id="@+id/settings_hardware_version"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+             android:layout_marginTop="231dp"
+             android:text="@string/settings_about_sysinfo"
+             android:textColor="@color/settings_button_text_unfocus"
+             android:textSize="@dimen/size_26"/>
+        
+        <TextView
+             android:id="@+id/settings_mac_address"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="0dp"
+             android:layout_marginTop="308dp"
+             android:text="@string/settings_about_sysinfo"
+             android:textColor="@color/settings_button_text_unfocus"
+             android:textSize="@dimen/size_26"/>
+        
+        <TextView
+             android:id="@+id/settings_fetch_version"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginLeft="720dp"
+             android:layout_marginTop="448dp"
+             android:text="@string/settings_about_sysinfo"
+             android:textColor="@color/settings_button_text_unfocus"
+             android:textSize="@dimen/size_15"/>
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/settings_legal_text"
+       android:layout_width="980dp"
+        android:layout_height="442dp"
+        android:layout_marginLeft="146dp"
+        android:layout_marginTop="204dp"
+        android:gravity="left|top"
+        android:singleLine="false"
+        android:textSize="@dimen/size_22"
+        android:textColor="@color/settings_button_text_unfocus"
+        android:scrollbars="vertical"
+        android:text="@string/settings_about_legal" />
+</RelativeLayout>

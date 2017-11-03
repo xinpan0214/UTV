@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <com.sz.ead.framework.mul2launcher.status.Statusbar
+        android:id="@+id/llyt_main_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </com.sz.ead.framework.mul2launcher.status.Statusbar>
+    
+	<Button 
+	    android:id="@+id/setting_timezone_selected"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="184dp"
+	    android:background="@drawable/settings_timezone_selected"
+	    android:text="UTC+8:00"
+	    android:textSize="@dimen/size_28"
+	    android:textColor="@color/settings_timezone_f_color"/>
+	<ImageView 
+	    android:id="@+id/setting_timezone_img"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_marginTop="184dp"
+	    android:background="@drawable/settings_timezone_img"/>
+	<TextView 
+	    android:id="@+id/setting_timezone_info"
+	    android:layout_width="816dp"
+	    android:layout_height="300dp"
+	    android:layout_marginTop="316dp"
+	    android:layout_marginLeft="244dp"
+	    android:text="@string/settings_timezone_info"
+	    android:textSize="@dimen/size_28"
+	    android:textColor="@color/settings_timezone_uf_color"/>
+</RelativeLayout>

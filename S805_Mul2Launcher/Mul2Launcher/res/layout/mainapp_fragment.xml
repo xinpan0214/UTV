@@ -1,0 +1,308 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainapp_fragment_rllt"
+    android:layout_width="1280dp"
+    android:layout_height="720dp">
+    
+     <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item0"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_marginLeft="55dp"
+        android:layout_marginTop="163dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+  
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item1"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item0"
+		android:layout_alignTop="@+id/mainapp_item0"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item2"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item1"
+		android:layout_alignTop="@+id/mainapp_item1"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item3"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item2"
+		android:layout_alignTop="@+id/mainapp_item2"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item4"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item3"
+		android:layout_alignTop="@+id/mainapp_item3"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item5"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item4"
+		android:layout_alignTop="@+id/mainapp_item4"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item6"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_below="@+id/mainapp_item0"
+		android:layout_alignLeft="@+id/mainapp_item0"
+		android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item7"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item6"
+		android:layout_alignTop="@+id/mainapp_item6"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item8"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item7"
+		android:layout_alignTop="@+id/mainapp_item7"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item9"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item8"
+		android:layout_alignTop="@+id/mainapp_item8"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item10"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item9"
+		android:layout_alignTop="@+id/mainapp_item9"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item11"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item10"
+		android:layout_alignTop="@+id/mainapp_item10"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item12"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_below="@+id/mainapp_item6"
+		android:layout_alignLeft="@+id/mainapp_item6"
+		android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item13"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item12"
+		android:layout_alignTop="@+id/mainapp_item12"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item14"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item13"
+		android:layout_alignTop="@+id/mainapp_item13"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item15"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item14"
+		android:layout_alignTop="@+id/mainapp_item14"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item16"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item15"
+		android:layout_alignTop="@+id/mainapp_item15"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/>
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.AppItemView
+        android:id="@+id/mainapp_item17"
+		android:layout_width="170dp"
+		android:layout_height="170dp"
+		android:layout_toRightOf="@+id/mainapp_item16"
+		android:layout_alignTop="@+id/mainapp_item16"
+		android:layout_marginLeft="30dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:visibility="visible"/> 
+    
+    <com.sz.ead.framework.mul2launcher.mainapp.PageIndicator
+        android:id="@+id/mainapp_pageindicator"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+        android:visibility="visible"/>
+    
+    <ImageView
+        android:id="@+id/mainapp_focus"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/mainapp_appitem_focus"
+        android:visibility="invisible" />
+    
+    <RelativeLayout
+        android:id="@+id/mainapp_uninstall"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible">
+        
+        <ProgressBar
+            android:id="@+id/mainapp_progress"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:max="100"
+            android:progress="0"
+            android:background="@drawable/mainapp_appitem_progressbar_dn"
+        	android:progressDrawable="@drawable/mainapp_appitem_progressbar_selector" />
+        
+        <TextView 
+        	android:id="@+id/mainapp_percent"
+ 			android:layout_width="170dp"
+ 			android:layout_height="170dp"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="0dp"
+ 			android:paddingLeft="2dp"
+ 			android:paddingRight="2dp"
+ 			android:gravity="center"
+ 			android:textSize="@dimen/size_32"
+ 			android:textColor="@color/mainapp_appitem_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text=""/>
+        
+        <TextView 
+        	android:id="@+id/mainapp_message"
+ 			android:layout_width="170dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_marginTop="120dp"
+ 			android:paddingLeft="2dp"
+ 			android:paddingRight="2dp"
+ 			android:gravity="center_horizontal"
+ 			android:textSize="@dimen/size_23"
+ 			android:textColor="@color/mainapp_appitem_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text="@string/mainapp_uninstalling"/>
+        
+    </RelativeLayout>
+    <!--  
+    <RelativeLayout
+        android:id="@+id/appitem_move"
+        android:layout_width="170dp"
+        android:layout_height="170dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:visibility="invisible">
+        
+        <TextView 
+        	android:id="@+id/appitem_move_name"
+ 			android:layout_width="170dp"
+ 			android:layout_height="50dp"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="120dp"
+ 			android:paddingLeft="10dp"
+ 			android:paddingRight="10dp"
+ 			android:gravity="center"
+ 			android:textSize="@dimen/size_23"
+ 			android:textColor="@color/mainapp_appitem_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text=""/>
+        
+        <ImageView
+            android:id="@+id/appitem_move_bg"
+            android:layout_width="170dp"
+            android:layout_height="170dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:contentDescription="@string/app_name"
+            android:scaleType="fitXY"
+            android:src="@drawable/mainapp_appitem_move"
+            android:visibility="visible" />
+        
+    </RelativeLayout>  -->
+
+</RelativeLayout>

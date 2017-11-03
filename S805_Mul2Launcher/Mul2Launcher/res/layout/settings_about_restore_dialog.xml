@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="1280dp"
+    android:layout_height="720dp"
+    android:background="@color/settings_about_dialog_bg_color" 
+    android:orientation="vertical" >
+	<TextView 
+   		android:id="@+id/id_setting_about_restoredlg_info"
+		android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="303dp"
+		android:textSize="@dimen/size_32"
+		android:textColor="@color/settings_dialog_prompt_color"  
+		android:maxLines="3"
+		android:ellipsize="end"
+		android:gravity="center"
+		android:text="@string/settings_about_restoredlg_info" />
+     <Button 
+ 		android:id="@+id/id_setting_about_restoredlg_ok"
+ 		android:layout_height="wrap_content" 
+ 		android:layout_width="wrap_content"
+ 		android:layout_marginTop="420dp"
+ 		android:layout_marginLeft="358dp" 
+ 		android:textSize="@dimen/size_32"
+ 		android:background="@drawable/settings_about_dialog_button_selector"
+        android:textColor="@drawable/settings_about_dialog_text_selector"
+     	android:text="@string/settings_about_restoredlg_ok" />
+	<Button 
+   		android:id="@+id/id_setting_about_restoredlg_cancel"
+ 		android:layout_height="wrap_content" 
+ 		android:layout_width="wrap_content"
+ 		android:layout_marginTop="420dp"
+		android:layout_marginLeft="658dp"
+		android:textSize="@dimen/size_32"
+		android:background="@drawable/settings_about_dialog_button_selector"
+        android:textColor="@drawable/settings_about_dialog_text_selector"
+        android:text="@string/settings_about_restoredlg_cancel" />
+</RelativeLayout>

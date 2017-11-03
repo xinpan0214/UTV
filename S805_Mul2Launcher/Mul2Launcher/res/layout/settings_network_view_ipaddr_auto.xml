@@ -1,0 +1,85 @@
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+  	    android:id="@+id/id_ipaddr_textview"
+  	    android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+  	    android:layout_width="match_parent"
+		android:layout_height="match_parent">     	
+  	    	
+  	    
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_ipaddress1"
+	   		android:layout_marginLeft="30dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="88dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_192"/>
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_point1"
+	   		android:layout_marginLeft="118dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="46dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_point"/>
+  	     
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_ipaddress2"
+	   		android:layout_marginLeft="164dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="88dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_168"/>
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_point1"
+	   		android:layout_marginLeft="252dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="46dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_point"/>
+  	     
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_ipaddress3"
+	   		android:layout_marginLeft="298dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="88dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_100"/>
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_point1"
+	   		android:layout_marginLeft="386dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="46dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_point"/>
+  	     
+  	     <TextView
+	        android:id="@+id/id_setting_network_auto_ipaddress4"
+	   		android:layout_marginLeft="432dp"
+        	android:layout_marginTop="9dp"
+  	    	android:layout_width="88dp"
+  	    	android:layout_height="54dp"
+	   		android:gravity="center"
+	   		android:textColor="@color/settings_network_iptext"
+	   		android:textSize="@dimen/size_30"
+	   		android:text="@string/settings_network_100"/>
+  	     
+  	 </RelativeLayout>

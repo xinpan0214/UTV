@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content" 
+    android:layout_height="wrap_content">
+    
+    <!-- 选中的应用信息 -->
+    <RelativeLayout
+        android:id="@+id/menudialog_appinfo"
+        android:layout_width="260dp"
+        android:layout_height="260dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/mainapp_menudialog_bg_big">
+        
+        <ImageView 
+        	android:id="@+id/menudialog_appicon"
+        	android:layout_width="100dp" 
+    		android:layout_height="100dp"
+        	android:layout_marginLeft="80dp"
+        	android:layout_marginTop="62dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/mainapp_appitem_deault"
+        	android:visibility="visible"
+        	android:contentDescription="@string/app_name"/>
+        
+        <TextView 
+        	android:id="@+id/menudialog_appname"
+ 			android:layout_width="260dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_below="@+id/menudialog_appicon"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="24dp"
+ 			android:paddingLeft="10dp"
+ 			android:paddingRight="10dp"
+ 			android:gravity="center_horizontal|top"
+ 			android:textSize="@dimen/size_30"
+ 			android:textColor="@color/mainapp_menudialog_default_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text="风行体育"/>
+        
+    </RelativeLayout>
+    
+    <!-- 移动 -->
+    <RelativeLayout
+        android:id="@+id/menudialog_move"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_toRightOf="@+id/menudialog_appinfo"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:background="@drawable/mainapp_menudialog_small_bg_selector">
+        
+        <ImageView 
+        	android:id="@+id/menudialog_move_icon"
+        	android:layout_width="52dp" 
+    		android:layout_height="52dp"
+        	android:layout_marginLeft="44dp"
+        	android:layout_marginTop="25dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/mainapp_menudialog_move_default"
+        	android:visibility="visible"
+        	android:contentDescription="@string/app_name"/>
+        
+        <TextView 
+        	android:id="@+id/menudialog_move_action"
+ 			android:layout_width="140dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_below="@+id/menudialog_move_icon"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="14dp"
+ 			android:paddingLeft="10dp"
+ 			android:paddingRight="10dp"
+ 			android:gravity="center_horizontal|top"
+ 			android:textSize="@dimen/size_23"
+ 			android:textColor="@color/mainapp_menudialog_default_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text="@string/mainapp_menudialog_move"/>
+        
+    </RelativeLayout>
+    
+    <!-- 置顶 -->
+    <RelativeLayout
+        android:id="@+id/menudialog_top"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_toRightOf="@+id/menudialog_move"
+        android:layout_alignTop="@+id/menudialog_move"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:background="@drawable/mainapp_menudialog_small_bg_selector">
+        
+        <ImageView 
+        	android:id="@+id/menudialog_top_icon"
+        	android:layout_width="52dp" 
+    		android:layout_height="52dp"
+        	android:layout_marginLeft="44dp"
+        	android:layout_marginTop="25dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/mainapp_menudialog_top_default"
+        	android:visibility="visible"
+        	android:contentDescription="@string/app_name"/>
+        
+        <TextView 
+        	android:id="@+id/menudialog_top_action"
+ 			android:layout_width="140dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_below="@+id/menudialog_top_icon"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="14dp"
+ 			android:paddingLeft="10dp"
+ 			android:paddingRight="10dp"
+ 			android:gravity="center_horizontal|top"
+ 			android:textSize="@dimen/size_23"
+ 			android:textColor="@color/mainapp_menudialog_default_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text="@string/mainapp_menudialog_top"/>
+        
+    </RelativeLayout>
+    
+    <!-- 置底 -->
+    <RelativeLayout
+        android:id="@+id/menudialog_bottom"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_below="@+id/menudialog_move"
+        android:layout_alignLeft="@+id/menudialog_move"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="-7dp"
+        android:focusable="true"
+        android:background="@drawable/mainapp_menudialog_small_bg_selector">
+        
+        <ImageView 
+        	android:id="@+id/menudialog_bottom_icon"
+        	android:layout_width="52dp" 
+    		android:layout_height="52dp"
+        	android:layout_marginLeft="44dp"
+        	android:layout_marginTop="25dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/mainapp_menudialog_bottom_default"
+        	android:visibility="visible"
+        	android:contentDescription="@string/app_name"/>
+        
+        <TextView 
+        	android:id="@+id/menudialog_bottom_action"
+ 			android:layout_width="140dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_below="@+id/menudialog_bottom_icon"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="14dp"
+ 			android:paddingLeft="10dp"
+ 			android:paddingRight="10dp"
+ 			android:gravity="center_horizontal|top"
+ 			android:textSize="@dimen/size_23"
+ 			android:textColor="@color/mainapp_menudialog_default_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text="@string/mainapp_menudialog_bottom"/>
+        
+    </RelativeLayout>
+    
+    <!-- 卸载 -->
+    <RelativeLayout
+        android:id="@+id/menudialog_uninstall"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_toRightOf="@+id/menudialog_bottom"
+        android:layout_alignTop="@+id/menudialog_bottom"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="0dp"
+        android:focusable="true"
+        android:background="@drawable/mainapp_menudialog_small_bg_selector">
+        
+        <ImageView 
+        	android:id="@+id/menudialog_uninstall_icon"
+        	android:layout_width="52dp" 
+    		android:layout_height="52dp"
+        	android:layout_marginLeft="44dp"
+        	android:layout_marginTop="25dp"
+        	android:scaleType="fitXY"
+        	android:src="@drawable/mainapp_menudialog_uninstall_default"
+        	android:visibility="visible"
+        	android:contentDescription="@string/app_name"/>
+        
+        <TextView 
+        	android:id="@+id/menudialog_uninstall_action"
+ 			android:layout_width="140dp"
+ 			android:layout_height="wrap_content"
+ 			android:layout_below="@+id/menudialog_uninstall_icon"
+ 			android:layout_marginLeft="0dp"
+ 			android:layout_marginTop="14dp"
+ 			android:paddingLeft="10dp"
+ 			android:paddingRight="10dp"
+ 			android:gravity="center_horizontal|top"
+ 			android:textSize="@dimen/size_23"
+ 			android:textColor="@color/mainapp_menudialog_default_color"
+ 			android:singleLine="true"
+ 			android:ellipsize="end"
+ 			android:visibility="visible"
+ 			android:text="@string/mainapp_menudialog_uninstall"/>
+        
+    </RelativeLayout>
+
+</RelativeLayout>

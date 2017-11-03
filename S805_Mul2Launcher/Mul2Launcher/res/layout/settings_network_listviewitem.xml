@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>    
+<RelativeLayout     
+    	xmlns:android="http://schemas.android.com/apk/res/android"    
+        android:layout_width="820dp"     
+        android:layout_height="70dp">    
+         
+    <ImageView     
+        android:id="@+id/id_setting_network_wifi_listview_bg" 
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_width="820dp"     
+        android:layout_height="70dp"
+        android:src="@drawable/settings_network_wifi_refresh_unfocus"/>
+ 	<ProgressBar  
+        android:id="@+id/id_setting_network_linking_progressbar"  
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="630dp"
+        android:layout_marginTop="15dp"
+        android:indeterminate="false"  
+        android:indeterminateDrawable="@drawable/settings_network_connect_progress_bar" />
+    <ImageView     
+        android:id="@+id/id_setting_network_wifi_connect" 
+        android:layout_marginLeft="645dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="40dp"     
+        android:layout_height="40dp"
+        android:src="@drawable/settings_network_connected"
+        /> 
+    <ImageView     
+        android:id="@+id/id_setting_wifi_lockImage" 
+        android:layout_marginLeft="745dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="40dp"     
+        android:layout_height="40dp"
+        android:src="@drawable/settings_network_wifi_lock_f">     
+    </ImageView>    
+       
+	<TextView    
+	    android:id="@+id/id_setting_network_wifi_name"  
+		android:layout_marginLeft="34dp"
+		android:layout_marginTop="8dp"
+		android:layout_height="57dp"     
+		android:layout_width="450dp"     
+		android:gravity="center_vertical|left"
+		android:textSize="@dimen/size_28"
+		android:textColor="@color/settings_timezone_uf_color">    
+    </TextView> 
+    
+	<ImageView     
+        android:id="@+id/id_setting_network_wifi_signal" 
+        android:layout_marginLeft="695dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="40dp"     
+        android:layout_height="40dp"
+  	    android:src="@drawable/settings_network_wifi_wifi2_uf"
+        >
+    </ImageView> 
+	
+</RelativeLayout> 

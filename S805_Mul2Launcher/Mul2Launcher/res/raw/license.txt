@@ -1,0 +1,93 @@
+UTV User Agreement
+
+1. General Information
+
+1.1. UTV products (hereinafter referred to as "UTV") are supplied by UTV Technology Limited (hereinafter referred to as "UTV"). The use of UTV by you will be bound by this legal agreement entered in by and between you and UTV, the terms of which are set forth herein.
+
+1.2. UTV Store is the platform that allows you to browse, search, download and install software applications of interest (such as game software, software for listening to music, software for picture viewing, software for viewing videos, etc.), that UTV supports for end user use only under the terms and conditions set forth in this Agreement. For UTV Store Products shown in UTV Store, end users may be individuals acting in their own capacities, commercial enterprises or educational institutions. 
+
+1.3. It shall be deemed that you have accepted these terms when you (1) have clicked the approval option or the acceptance option which is displayed when downloading or installing software application, or (2) have actually used the relevant software application via UTV Store.
+
+2. Terms of Sale on UTV and UTV Store
+
+2.1. Various payment methods will be provided by UTV for you to assist your purchase of UTV and to obtain license for software application of third party via UTV Store. You agree to abide by any relevant service terms or other legal agreements entered in by and between you and UTV or third party. Your use of the designated payment method shall be bound by these terms or agreements. You agree that UTV reserves the right in its discretion to add or delete payment methods without any notice.
+
+2.2. You agree to abide by any and all applicable tax laws, including the declaration and payment of any taxes arising from using UTV or software applications obtained through UTV Store, and agree to declare and pay all applicable taxes.
+
+2.3. All sales of products (which may include software licenses) are final. Prices for products offered via the UTV Store may change at any time, and the UTV Store does not provide price protection or refunds in the event of a price reduction or promotional offering. If a product becomes unavailable following a transaction but prior to download, your sole remedy is a refund. If technical problems prevent, or unreasonably delay, delivery of your product, your exclusive and sole remedy is either replacement or refund of the price paid, as determined by UTV. 
+
+2.4. Your use of the UTV Store includes the ability to enter into agreements and/or to make transactions electronically. You acknowledge that your electronic submissions constitute your agreement and intent to be bound by and to pay for such agreements and transactions. Your agreement and intent to be bound by electronic submissions applies to all records relating to all transactions you enter through the UTV Store, including notices of cancellation, policies, contracts, and applications. In order to access and retain your electronic records, you may be required to have certain hardware and software, which are your sole responsibility. UTV is not responsible for typographic errors. 
+
+3. UTV and UTV Store 
+
+3.1. You agree to use UTV for purposes only allowed by any applicable laws and regulations or rules or codes accepted in the jurisdictions. You agree to abide by all applicable export restrictions, including but not limited to any export administration regulations issued by Commerce Department of each country and sanction plan by Office of Foreign Assets Control under Ministry of Finance of each country. The use of UTV by you shall be deemed that you acknowledge and warrant that you will comply with all export regulations and other applicable regulations of each country. You agree to abide by all local laws and regulations relating to the download, installation and /or use of software application.
+
+3.1.1. UTV does not recommend software applications other than those provided through the UTV Store be installed into the UTV. If user installs any software application not provided through the UTV Store into the UTV, the user herein agrees to be responsible and to assume all risks and liabilities resulted from the installation and use of the software application.
+
+3.1.2. User of the UTV herein agrees not to use the UTV for any illegal purposes, including using the UTV for viewing copyrighted content. The user herein agrees to be responsible and to assume all risks and liabilities resulted from any illegal use of the UTV.
+
+3.2. You agree not to access (or try to access) UTV in any ways other than through the interface provided by UTV, unless otherwise specifically permitted by the separate agreement between you and UTV. You shall agree not to access (or try to access) UTV in any automatic ways (including script, crawlers or similar techniques), and ensure to comply with instructions (in soft copy or hard copy) provided with the UTV.
+
+3.3. UTV Store is available for individuals aged 13 years or older. If you are 13 or older but under the age of 18, you should review this agreement with your parent or guardian to make sure that you and your parent or guardian understand it. 
+
+3.4. The UTV Store may require you to register as a user. As a registered user of the UTV Store, you may establish an account ("Account"). Don't reveal your Account information to anyone else. You are solely responsible for maintaining the confidentiality and security of your Account and for all activities that occur on or through your Account, and you agree to immediately notify UTV Store of any security breach of your Account. UTV shall not be responsible for any losses arising out of the unauthorized use of your Account. You agree to provide accurate and complete information when you register with, and as you use, the UTV Store ("Registration Data"), and you agree to update your Registration Data to keep it accurate and complete. You agree that UTV Store may store and use the Registration Data you provide for use in maintaining and billing fees to your Account. 
+
+3.5. UTV Store is selling you a license to use the Products. There are two (2) categories of UTV Store Products, as follows: (i) those UTV Store Products that have been developed by UTV, and which are licensed to you by UTV through the UTV Store ("UTV Products"); and (ii) those UTV Store Products that have been developed, and are licensed to you, by a third-party developer ("Third-Party Products"). The category of a particular UTV Store Product (UTV Product or Third-Party Product) is identified on UTV Store application. Once obtained from UTV Store, that license forms a binding agreement directly between you and the publisher of that Product (the "Publisher") governing your use of that Product.
+
+3.6. You agree that the UTV Store and certain Products include security technology that limits your use of Products and that, whether or not Products are limited by security technology, you shall use Products in compliance with the applicable usage rules established by UTV and the Publishers ("Usage Rules"), and that any other use of the Products may constitute a copyright infringement. Any security technology is an inseparable part of the Products. UTV reserves the right to modify the Usage Rules at any time. You agree not to violate, circumvent, reverse-engineer, decompile, disassemble, or otherwise tamper with any of the security technology related to such Usage Rules for any reason - or to attempt or assist another person to do so. Usage Rules may be controlled and monitored by UTV for compliance purposes, and UTV reserves the right to enforce the Usage Rules without notice to you. 
+
+3.7. Certain content, products, and services available via the UTV Store may include materials from third parties. UTV Store may provide links to third-party websites as a convenience to you. You agree that UTV is not responsible for examining or evaluating the content or accuracy and UTV does not warrant and will not have any liability or responsibility for any third-party materials or websites, or for any other materials, products, or services of third parties. You agree that you will not use any third-party materials in a manner that would infringe or violate the rights of any other party and that UTV is not in any way responsible for any such use by you. 
+
+3.8. UTV reserves the right to preview, examine, report, filter, modify, refuse or delete any or all software applications in the UTV Store, and you shall agree to be responsible and liable for any and all risks resulted from, and in connection with, the use of UTV. 
+
+3.9. You agree that the UTV product, the UTV Store, the Products accessible through the UTV Store, contain proprietary information and material (including but not limited to graphics, user interface, audio clips, editorial content, and scripts and software used to implement the above items) that is owned by UTV and/or the Publishers of the Products, and is protected by applicable intellectual property and other laws, including but not limited to copyright. You agree that you will not use such proprietary information or materials in any way whatsoever except in compliance with this Agreement. No portion of the UTV product, the UTV Store, and the Products, including content accessible through the Products, may be reproduced in any form or by any means, except as expressly permitted in these terms.
+
+3.10. Notwithstanding any other provision of this Agreement, UTV and the Publishers reserve the right to change, suspend, remove, or disable access to any Products, content, or other materials accessible through the UTV Store at any time without notice. In no event will UTV be liable for making these changes. UTV may also impose limits on the use of, or access to, certain features or portions of the UTV Store, in any case and without notice or liability. 
+
+4. Update
+
+4.1. UTV will from time to time check the existence of update program of UTV, such as the error correction and patching program, enhancement, missing plug-ins and new version (collectively referred to as "Update Program"). You will have the option to accept the update programs for installation. The installation of these update programs shall be deemed that you agree to automatically request or accept the update program of the kind.
+
+5. Export Restriction
+
+5.1. The software application provided by UTV Store may be faced with export restriction or control by some countries/regions or areas. You agree to abide by all applicable international export laws and regulations of each country. 
+
+6. Compensation
+
+6.1. You agree that, to the maximum extent permitted by law, you shall be responsible for any claim, legal action, lawsuit and lawsuit process, and all loss, claim request, damage, expense and cost (including reasonable attorney fees) arising from your use of UTV (including downloading, installing or using any software application), or from violation of the provisions set forth herein.
+
+7. Termination
+
+7.1. The terms set forth herein will remain in full force and valid unless you or UTV terminates these terms in accordance with the following provisions.
+
+7.2. You can stop using UTV and any software application downloaded on UTV Store if you want to terminate the terms set forth herein. However, you remain responsible for all liabilities you incurred that arose from the use of UTV before termination.
+
+7.3. In the event (A) you violates any terms specified in this agreement; or (B) UTV is required by law to terminate these provisions; or (C) UTV decides not to provide UTV any more, UTV shall has the right to terminate these terms any time.
+
+7.4. If you fail, or UTV suspects that you have failed, to comply with any of the provisions of this Agreement, UTV, at its sole discretion, without notice to you may: (i) terminate this Agreement and/or your Account, and you will remain liable for all amounts due under your Account up to and including the date of termination; and/or (ii) terminate the license to the software; and/or (iii) preclude access to the UTV Store (or any part thereof). UTV reserves the right to modify, suspend, or discontinue the UTV Store (or any part or content thereof) at any time with or without notice to you, and UTV will not be liable to you or to any third party should it exercise such rights. 
+
+7.5. The termination of these terms will be without prejudice to any legal right and obligation and responsibility.
+
+8. Disclaimer 
+
+8.1. You acknowledge and agree that, to the maximum extent permitted by law, you shall be liable for all risks arising from the use of any software application from UTV and download or acquired by you through the UTV Store; and UTV Store is provided on the basis of "status in quo" and "availability" and no warranty in any form will be provided.
+
+8.2. You shall be solely and fully liable for all responsibilities and risks arising from the use of any software application from UTV and download or acquired by you through the UTV Store; you shall bear all responsibilities in respect to the damage to your computer system, mobile device or other devices or data loss arising from such uses.
+
+8.3. UTV further states that, to the maximum extent permitted by applicable law, UTV shall not, in respect to any software application download or acquired by you through the UTV Store and UTV itself, provide any expressed or implied warranty and conditions in any form, including but not limited to implied warranty and condition of merchantability, fitness for a particular purpose, non-infringement of others' rights, etc.
+
+9. Limitation of Liability
+
+9.1. You expressly understand and agree that neither UTV nor its affiliated companies shall be liable for any direct, indirect, incidental, special, consequential or punitive damages (including loss of any data) arising out of the use of UTV or of any software application download or acquired from UTV Store, regardless of whether these liabilities arose from contractual obligations, negligence, or intentional tort, and whether UTV or its representative have been advised of the possibility of such damages.
+
+10. General
+
+10.1. These terms constitutes the complete legal agreement between the parties with respect to the subject hereof, and regulates the use by you of UTV, UTV Store and its software application, and supersedes all prior agreements with respect to UTV and software application entered in by and between you and UTV.
+
+10.2. You agree that the failure of UTV to exercise or enforce any of its legal rights or remedies under the agreement (or under any applicable laws) shall not be deemed a waiver of those rights by UTV, and UTV shall be entitled to exercise those rights or remedies.
+
+10.3. If any provision shall be held by a court of competent jurisdiction to be invalid, that provision shall be removed from these clauses without prejudice to remaining provisions, and the remaining terms will remain in full force and effect.
+
+10.4. You understand and agree that every member of the UTV should be the third party beneficiary of these terms, and such other companies shall be entitled to directly enforce these terms, and advocate relevant rights and interests in accordance with these terms (or rights in their favor). In addition, other individuals or companies should not become a third party beneficiary of these terms.
+
+10.5. Without prior written permission from other party, you or UTV shall not be allowed to transfer or shift rights hereof. Without prior written permission from other party, you or UTV shall not be allowed to assign to others any liability or obligation under these clauses.
